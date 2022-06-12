@@ -1,6 +1,6 @@
 # DONE!!!
 
-# This library is created for project merlin and it's licensed under the MIT license.
+# This library is created for project merlin(old name for frost) and it's licensed under the MIT license.
 # We need some numbers
 # We need some characters -> We need to import strings library for this. 
 # We need some special characters
