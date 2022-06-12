@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{parskip}
+\usepackage{amsfonts} % For the special mathematical operations.
+
+\newcommand\hr{\par\vspace{-.5\ht\strutbox}\noindent\hrulefill\par}
+
+\title{ID SYSTEM FOR PROJECT FROST}
+
+\author{Baran Gokalp}
+
+\date{2022 January 13 to 15} 
+
+\begin{document}
+    \maketitle
+    The algorithm for the id system of project frost is just 
+    some mathematical operations. First of all, we need get the 
+    length of the username and assign it to the variable x.
+    \hr
+    \begin{center}
+        1)\\
+        $f:\mathbb{R} \longrightarrow \mathbb{R};$\\
+        $g:\mathbb{R} \longrightarrow \mathbb{R};$\\
+        $z:=len(username); n=1; i = 100000;$\\
+        \hr  
+        2)
+        \begin{equation*}
+            f(x)=\begin{cases}
+                \prod_{n}^{x}n \quad &\text{if} \, x \leq 8 \\
+                \sum_{n}^{x}n \quad &\text{if} \, x>8 \\
+            \end{cases}
+        \end{equation*}
+        \hr
+        3)\\
+        $g(x) = f(z) + i$
+    \end{center}
+    \hr
+    So that is what we are doing in the Id system. First we are 
+    taking the username from the user and calculating it's length.
+    After we calculate the length of the username, we are
+    creating a piecewise function contains two conditions.
+    Our critical point is 8. If length of the username is less 
+    or equal to 8, then we product all the numbers 
+    from 1 to length of the username. If length of the username
+    is greater than 8, then we sum all the number from 1
+    to length of the username. And at the end, 
+    we have a function called $g(x)$. What it does is actually
+    quite simple. It calls the function $f(x)$ with the length of
+    the username, and it returns the sum of the f function and 
+    basenumber.  
+\end{document}
+
+% End. That was it.
