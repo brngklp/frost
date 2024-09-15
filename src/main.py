@@ -15,9 +15,7 @@ import libs.get_index
 import libs.readkey
 import libs.isEmpty
 import libs.timeout
-import libs.genpass
-# Other Libraries required
-import argparse 
+import argparse
 import sys
 
 def main() -> None:
@@ -52,5 +50,6 @@ def main() -> None:
         # Fetch the data from the file
         libs.fetch_data.fetch_data(args.store)   
     libs.writedata.updateDatabase("asdas", "baran92", "baran123", "baran@gmail.com") 
-if __name__ == """__main__""":
+
+if __name__ == "__main__":
     main()
